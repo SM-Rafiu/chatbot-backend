@@ -7,7 +7,7 @@ import random
 import json
 
 lem = WordNetLemmatizer()
-loaded_model = load_model('botModel')
+loaded_model = load_model('botModel.h5')
 bases = pickle.load(open('bases.pickle', 'rb'))
 
 def bag_of_words(msg):
