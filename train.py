@@ -28,7 +28,7 @@ pickle.dump(collected_tags, open('tags.pickle', 'wb'))
 
 out_template = [0] * len(collected_tags)
 xy_data = []
-
+  
 for group in groupings:
     bag = []
     base_patterns = [lem.lemmatize(word.lower()) for word in group[0]]
@@ -68,3 +68,4 @@ model.save('botModel.h5', model.fit(x, y, batch_size=10, epochs=400, verbose=2))
 
 
 print("Training complete!")
+model.summary()

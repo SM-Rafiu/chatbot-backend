@@ -1,7 +1,7 @@
   {"intents":  [
   {"tag":  "greetings",
-   "patterns":  ["hello","hey","hi","good dey","Greetings","what's up?","how is it going?","how are you"],
-   "responses":  ["Hello!🗿","Hey","What can i do for you?","Hi ^_^! It's good to see you!"]
+   "patterns":  ["hello","hey","hi","good dey","Greetings","what's up?","how is it going?","how are you","yo","yo bro","bro","hello bro"],
+   "responses":  ["Hello!","Hey","What can i do for you?","Hi ^_^! It's good to see you!"]
   },
   {"tag":  "goodbye",
    "patterns": ["cya","See you later", "Goodbye","I am Leaving","Have a good dey","bye","cao","see ya"],
@@ -20,24 +20,28 @@
    "responses": ["My owner Md. Rafiqul Islam is 40 years old!","40 years!"]
   },
   {"tag": "SERVICES",
-   "patterns": ["what services do you provide?","what services you  provide?","your services","service"],
-   "responses": ["Our services: \n T-SHIRT DESIGN, \nLOGO DESIGN, \nBANNER DESIGN, \n PHOTO EDIT, \n IMAGE BACKGROUND REMOVE","The services we provide: \n-SHIRT DESIGN, \nLOGO DESIGN, \nBANNER DESIGN, \nPHOTO EDIT, \nIMAGE BACKGROUND REMOVE"]
+   "patterns": ["what services do you provide?","what services you  provide?","your services","service","what can you do"],
+   "responses": ["Our services: \nT-SHIRT DESIGN, \nLOGO DESIGN, \nBANNER DESIGN, \n PHOTO EDIT, \n IMAGE BACKGROUND REMOVE","The services we provide: \n-SHIRT DESIGN, \nLOGO DESIGN, \nBANNER DESIGN, \nPHOTO EDIT, \nIMAGE BACKGROUND REMOVE"]
   },
   {"tag": "random",
    "patterns": ["aggcykuagf","8ifgiuvbkanciy378567834sdaclqclebvewulgtudks","qwertyuiopalmznxbcvghdjks1234567890"],
    "responses": ["My AI knowledge is only focused on ChatBot product.Dont ask other ques. you stupid🗿"]
   },
   {"tag": "location",
-   "patterns": ["what is your location?","give me your location"],
+   "patterns": ["what is your location?","give me your location","your address","give me your address"],
    "responses": ["Our location is Dhaka, Bangladesh"]
   },
   {"tag": "skill",
    "patterns": ["your skills", "skills", "Profession", "tell me about your skills"],
    "responses": ["I am working as a professional Graphic Designer in T-Shirt Design, Logo Design, Banner Design, Photo Editor, Image Background Remover since 2010 to till now successfully. "]
   },
-  {"tag": "unnecceser",
+  {"tag": "unnecessary",
    "patterns": ["where  is ", "how to ","what is "],
-   "responses": ["My AI knowledge is only focused on ChatBot product.Dont ask other ques. you stupid🗿"]
+   "responses": ["My AI knowledge is only focused on this website.Dont ask other questions you stupid"]
+  },
+  {"tag": "email",
+   "patterns": ["give me your email","what is your email address", ""],
+   "responses": ["Our email address: \nrafiq.freelancer.1980@gmail.com, \nrafiq.8910@mail.com"]
   },
   {"tag": "contact",
    "patterns": ["How can I contact you?","how can i contact with you","How to contact you","give me your phone number","what is your phone number","give me your mobile number","what is your mobile number"],
