@@ -1,5 +1,8 @@
-venv/
+/venv/
 .env
 __pycache__
 Lib
 site-packages
+venv/
+*.dll
+*.pydvenv/
